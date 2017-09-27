@@ -978,6 +978,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1006,6 +1007,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
@@ -1033,6 +1035,7 @@
 		6A05B7B91BE274BE00F19B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
@@ -1050,6 +1053,7 @@
 		6A05B7BA1BE274BE00F19B53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1070,6 +1074,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1098,6 +1103,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1233,6 +1239,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1255,6 +1262,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1275,6 +1283,7 @@
 		6AAC8F8D19F03C2900E7A677 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1292,6 +1301,7 @@
 		6AAC8F8E19F03C2900E7A677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1307,6 +1317,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1336,6 +1347,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1361,6 +1373,7 @@
 		CD1603141AC023D6000CD69A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1380,6 +1393,7 @@
 		CD1603151AC023D6000CD69A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
